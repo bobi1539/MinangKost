@@ -35,7 +35,7 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     private fun viewAccountTypeDropDown() {
-        val accountTypes = listOf("Pemilik Kost", "Penyewa Kost")
+        val accountTypes = listOf("Pemilik Kos", "Penyewa Kos")
         val acType = findViewById<AutoCompleteTextView>(R.id.ac_type_register)
         val adapter = ArrayAdapter(this, R.layout.list_item, accountTypes)
         acType.setAdapter(adapter)
